@@ -1,0 +1,23 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+# Adding the custom files for a MAME setup
+!.gitattributes
+!.gitignore
+!/cheat/cheat.7z
+!/ctrlr/xbox-fightstick*
+!/ends/ends.7z
+!/flyers/flyers.7z
+!/glsl/CRT-Scanlines*
+!/icons/icons.zip
+!/lua/*.lua
+!/mame.ini
+!/marquees/marquees.7z
+!/README.md
+!/samples/*.zip
+!/snap/snap.7z
+!history/history.xml
+
+
+
