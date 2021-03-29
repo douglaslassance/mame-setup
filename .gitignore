@@ -10,7 +10,7 @@
 !/ctrlr/8bitdo.cfg
 !/ends/ends.7z
 !/flyers/flyers.7z
-!/glsl/CRT-Scanlines*
+!/glsl/*
 !/icons/icons.zip
 !/lua/*.lua
 !/mame.ini
