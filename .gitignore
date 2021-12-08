@@ -7,7 +7,7 @@
 !.gitignore
 !/cheat/cheat.7z
 !/ctrlr/xbox-fightstick*.cfg
-!/ctrlr/8bitdo.cfg
+!/ctrlr/8bitdo*.cfg
 !/ends/ends.7z
 !/flyers/flyers.7z
 !/glsl/*
