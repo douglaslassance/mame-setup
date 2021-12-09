@@ -14,7 +14,7 @@ If you want to use the GUI simply double-click the executable. Press <kbd>Alt</k
 
 ### Play
 
-You can play with the keyboard but the emulator is also already configured to work with four [8BitDo Arcade Sticks](https://www.8bitdo.com/arcade-stick/). Main keyboard keys for the first player are <kbd>1</kbd> for start, <kbd>5</kbd> to insert coin, <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> for movement and <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>B</kbd> <kbd>N</kbd> <kbd>M</kbd> for buttons. For the second player it is respectively <kbd>2</kbd>, <kbd>6</kbd>, <kbd>←</kbd> <kbd>↑</kbd> <kbd>→</kbd> <kbd>↓</kbd> and <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> from the numpad.
+You can play with the keyboard but the emulator is also already configured to work with four [8BitDo Arcade Sticks](https://www.8bitdo.com/arcade-stick/). Main keyboard keys for the first player are <kbd>1</kbd> for start, <kbd>5</kbd> to insert coin, <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> for movement and <kbd>K</kbd> <kbd>L</kbd> <kbd>:</kbd> <kbd>M</kbd> <kbd>,</kbd> <kbd>.</kbd> for buttons. The second player is only mapped to the second joystick.
 
 ### Extend
 
