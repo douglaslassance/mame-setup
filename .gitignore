@@ -9,8 +9,10 @@
 !/ctrlr/8bitdo*.cfg
 !/ends/ends.7z
 !/flyers/flyers.7z
-!/glsl/*
+!/glsl/*.vsh
+!/glsl/*.fsh
 !/icons/icons.zip
+!/ini/*.ini
 !/lua/*.lua
 !/mame.ini
 !/marquees/marquees.7z
@@ -18,6 +20,11 @@
 !/samples/*.zip
 !/snap/snap.7z
 !history/history.xml
+
+# Ignore specific files
+/ini/desktop.ini
+/ini/ui.ini
+/ini/plugin.ini
 
 
 
