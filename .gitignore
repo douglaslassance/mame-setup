@@ -7,10 +7,11 @@
 !.gitignore
 !/cheat/cheat.7z
 !/ctrlr/8bitdo*.cfg
+!/ctrlr/retroport*.cfg
 !/ends/ends.7z
 !/flyers/flyers.7z
-!/glsl/*.vsh
 !/glsl/*.fsh
+!/glsl/*.vsh
 !/icons/icons.zip
 !/ini/*.ini
 !/lua/*.lua
