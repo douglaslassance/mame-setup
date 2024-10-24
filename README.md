@@ -10,11 +10,16 @@ This folder is meant to be merged on top of an official download of the MAME 0.2
 
 ### Launch
 
-If you want to use the GUI simply double-click the executable. Press <kbd>Alt</kbd> + <kbd>Enter</kbd> to go fullscreen. If you want to use the commands, keep reading. Using a terminal, `cd` to the `mame` folder and run `./mame [rom_name]` for example `./mame sfa3`. Since version 0.226, MAME emulates consoles, therefore you can also run `./mame [machine_bios] [rom_name]` for example `./mame megadriv sor2`. You will notice that MAME will conveniently propose rom name corrections if you type something slightly wrong. I use that all the time. There is a lot of other possibilities when running the emulator through command line and you can have a better idea of what is available by running `mame -h`.
+If you want to use the GUI simply double-click the executable. Press <kbd>Alt</kbd> + <kbd>Enter</kbd> to go fullscreen. If you want to use the commands, keep reading. Using a terminal, `cd` to the `mame` folder and run `./mame <rom_name>` for example `./mame sfa3`. Since version 0.226, MAME emulates consoles, therefore you can also run `./mame <machine_bios> <rom_name>` for example `./mame megadriv sor2`. You will notice that MAME will conveniently propose rom name corrections if you type something slightly wrong. I use that all the time. There is a lot of other possibilities when running the emulator through command line and you can have a better idea of what is available by running `mame -h`.
 
 ### Play
 
-You can play with the keyboard but the emulator is also already configured to work with four [8BitDo Arcade Sticks](https://www.8bitdo.com/arcade-stick/). Main keyboard keys for the first player are <kbd>1</kbd> for start, <kbd>5</kbd> to insert coin, <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> for movement and <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>B</kbd> <kbd>N</kbd> <kbd>M</kbd> for buttons. The other players are only mapped to joysticks.
+You can play with the keyboard. Keys for the first player are <kbd>1</kbd> for start, <kbd>5</kbd> to insert coin, <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> for movement and <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>B</kbd> <kbd>N</kbd> <kbd>M</kbd> for buttons. The other players are only mapped to joysticks.
+
+The emulator is also already configured to work with four [8BitDo Arcade Sticks](https://www.8bitdo.com/arcade-stick/) in `X` mode for arcade games and with four [8BitDo Pro 2](https://www.8bitdo.com/pro2/) in `X` mode for consoles.
+
+> [!Note]
+> Other controller profiles like [RetroPort](https://www.retrousb.com/) ones are provided and can be found in the `ctrl` folder. You can override which profile is used by adding `--ctrlr <profile_name>` at the end of your `mame` command.
 
 ### Extend
 
