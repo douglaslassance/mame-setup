@@ -21,6 +21,10 @@ The emulator is also already configured to work with four [8BitDo Arcade Sticks]
 > [!Note]
 > Other controller profiles like [RetroPort](https://www.retrousb.com/) ones are provided and can be found in the `ctrl` folder. You can override which profile is used by adding `--ctrlr <profile_name>` at the end of your `mame` command.
 
+### Graphics
+
+A pretty solid CRT filter is provided but de-activated by default. You can activate it by uncommenting the `glsl_shader_mame1` line in `mame.ini`.
+
 ### Extend
 
 An emulator is not worth much without it's roms, unfortunately I cannot provide them as part of that setup for obvious reasons. Therefore you will have to use you imagination to get a hold on these little gems. Once you do, create a `roms` folder at the root of the `mame` folder and stick all the `.zip` files in there. Console BIOS roms should also go in the `roms` folder, on the other hand, console game roms should go in a separate folder called `soft` and should be grouped by systems such as `megadriv`.
