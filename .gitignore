@@ -5,6 +5,7 @@
 # Adding the custom files for a MAME setup
 !.gitattributes
 !.gitignore
+!.vscode/*
 !/cheat/cheat.7z
 !/ctrlr/8bitdo*.cfg
 !/ctrlr/retroport*.cfg
