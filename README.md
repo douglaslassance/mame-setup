@@ -51,12 +51,10 @@ Zipped arcade roms should live at the root of your roms folder, while console on
 
 ### Playing
 
-You can play with the keyboard. Keys for the first player are <kbd>1</kbd> for start, <kbd>5</kbd> to insert coin, <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> for movement and <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>B</kbd> <kbd>N</kbd> <kbd>M</kbd> for buttons. The other players are only mapped to joysticks.
-
-The emulator is also already configured to work with four [8BitDo Arcade Sticks](https://www.8bitdo.com/arcade-stick/) in `X` mode for arcade games and with four [8BitDo Pro 2](https://www.8bitdo.com/pro2/) in `X` mode for consoles.
+You can play with the keyboard. Keys for the first player are <kbd>1</kbd> for start, <kbd>5</kbd> to insert coin, <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> for movement and <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>B</kbd> <kbd>N</kbd> <kbd>M</kbd> for buttons. The other players are only mapped to controllers. The emulator is pre-configured to work with four [8BitDo Pro 2](https://www.8bitdo.com/pro2/) (in `X` or `D` mode).
 
 > [!Note]
-> Other controller profiles like [RetroPort](https://www.retrousb.com/) ones are provided and can be found in the `ctrl` folder. You can override which profile is used by adding `--ctrlr <profile_name>` at the end of your `mame` command.
+> Other controller profiles for [8BitDo Arcade Sticks](https://www.8bitdo.com/arcade-stick/) and [RetroPort](https://www.retrousb.com/) are provided and can be found in the `ctrl` folder. You can override which profile is used by adding `--ctrlr <profile_name>` at the end of your `mame` command.
 
 ### Graphics
 
