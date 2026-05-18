@@ -158,11 +158,8 @@ void main()
 #endif
   vec2 uv_ratio = fract(ratio_scale);
 
-  // Figuring out if we need to up-scale the scanlines for "HD" images.
-  float scanlinesScale = color_texture_pow2_sz.x > 500.0 ? 0.5 : 1.0;
-
   // This is the ratio that will be used for scanlines.
-  vec2 uv_ratio2 = fract(ratio_scale * scanlinesScale);
+  vec2 uv_ratio2 = fract(ratio_scale);
 
   // Snap to the center of the underlying texel.
   xy = (floor(ratio_scale) + vec2(0.5)) / color_texture_pow2_sz;
