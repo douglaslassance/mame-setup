@@ -12,7 +12,6 @@
 !/ends/ends.7z
 !/glsl/*.fsh
 !/glsl/*.vsh
-!/hash/*
 !/icons/icons.zip
 !/ini/*.ini
 !/lua/*.lua

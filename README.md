@@ -12,6 +12,7 @@ After installing [Scoop](https://scoop.sh), run the following commands in the [t
 scoop bucket add emulators https://github.com/borger/scoop-emulators.git
 scoop install git mame
 git clone https://github.com/douglaslassance/mame-setup.git %%USERPROFILE\.mame
+cmd /c mklink /J %USERPROFILE%\.mame\hash %USERPROFILE%\scoop\apps\mame\current\hash
 ```
 
 #### macOS
@@ -21,6 +22,7 @@ After installing [Homebrew](https://brew.sh/), run the following commands in the
 ```sh
 brew install mame
 git clone https://github.com/douglaslassance/mame-setup.git ~/.mame
+ln -sfn /opt/homebrew/share/mame/hash ~/.mame/hash
 ```
 
 ### Launching
